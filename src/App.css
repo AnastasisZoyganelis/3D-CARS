@@ -1,0 +1,21 @@
+body{background-color: black;}
+.canvas-framer{
+  height: 100vh;
+  
+  border: 3px solid black;
+}
+.title{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  animation: bounce 0.5s infinite alternate;
+  margin-top: 130px;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px); /* Adjust the value to control the distance */
+  }
+}

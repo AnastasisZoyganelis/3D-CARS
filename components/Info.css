@@ -1,0 +1,47 @@
+.button1,.button2,.button3 {
+    
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid transparent; /* Transparent border to start with */
+    color: #333; /* Default text color */
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    cursor: pointer;
+    background-color: transparent; /* White background */  
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height:50px;
+    margin-left: 450px;
+    
+  }
+  .button2{
+    margin-left: 200px;
+    border-color: #ff0000; /* Red border color */
+  color: #ff0000; /* Red text color */
+  }
+  .button2:hover{
+    background-color: #ff0000; /* Red background color on hover */
+  color: #fff; /* Text color on hover */
+  }
+  .button3{
+    margin-left: 180px;
+    border-color: #007bff; /* Blue border color */
+    color: #007bff; /* Blue text color */
+  }
+  .button3:hover{
+    background-color: #007bff; /* Blue background color on hover */
+  color: #fff; /* Text color on hover */
+  }
+  .button1{
+    border-color: #fff; /* White border color */
+  color: #fff; /* White text color */
+ 
+  }
+  .button1:hover{
+    background-color: #fff; /* White background color on hover */
+  color: #333; /* Text color on hover */
+  }
+ 

@@ -1,0 +1,1 @@
+ export  const AngleToRadients=(angleInDeg)=>(Math.PI/180)*angleInDeg;
